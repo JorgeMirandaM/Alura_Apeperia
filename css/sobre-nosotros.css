@@ -18,6 +18,10 @@
     margin-bottom: 1rem;
 }
 
+.sobre_nosotros__contenido hr{
+    background: #F7F4F4;
+}
+
 .sobre_nosotros__plataformas {
     display: flex;
     flex-wrap: wrap;
@@ -51,5 +55,15 @@
     }
     .sobre-nosotros__imagen {
         display: block;
+    }
+    .sobre_nosotros__contenido br{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:1024px) {
+    .sobre_nosotros__contenido hr{
+        display: none;
     }
 }
